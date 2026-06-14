@@ -1,6 +1,74 @@
+/* MENU */
+
+ul {
+
+    list-style-type: none;
+
+    padding: 0;
+
+    margin: 2.5rem 0;
+
+    text-align: center;
+
+    padding: 1.5rem 0;
+
+    background-color: rgba(255,255,255,0.25);
+}
+
+nav li {
+
+    display: inline-block;
+
+    margin: 0 0.5rem;
+}
 
 
+ a {
 
+    display: block;
+
+    background-color: #053a37ed;
+
+    color: rgb(247, 242, 242);
+
+    text-decoration: none;
+
+    padding: 1.4em 3em;
+
+    border-radius: 4em;
+
+    font-size: 1.1rem;
+}
+
+
+/*aplica a los enlaces en su estado normal, sin haber sido visitados ni interactuados*/
+
+a:link { 
+     background-color: #0b0108ed;
+
+}
+
+/*visitado*/
+
+ a:visited { 
+     background-color: #e31161ed;
+
+}
+
+/*mouse sobre*/
+
+ a:hover {
+
+    background-color: #12eed1;
+
+    color: rgb(12, 12, 12);
+}
+
+/*linkeando*/
+ a:active {
+
+    color: white;
+}
 
 
 
